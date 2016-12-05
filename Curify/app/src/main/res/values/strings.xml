@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Curify</string>
+    AssetManager am = context.getApplicationContext().getAssets();
+
+    typeface = Typeface.createFromAsset(am,
+    String.format(Locale.US, "fonts/%s", "DK Canoodle.otf"));
+
+    setTypeface(typeface);
+</resources>
